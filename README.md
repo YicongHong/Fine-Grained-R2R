@@ -15,5 +15,9 @@ The Fine-Grained R2R data, which enriches the R2R dataset with sub-instructions 
 
 * For the test unseen split, we only provide the sub-instructions but not the sub-paths.
 
-
 ## source
+The code of the proposed Chunking Function for generating the sub-instructions.
+
+* Install the [StanfordNLP package](https://github.com/stanfordnlp/stanza/) (v0.1.2 in our experiment) and run *make_subinstr.py* to generate sub-instructions data from the original R2R data.
+
+
