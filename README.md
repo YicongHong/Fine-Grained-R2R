@@ -8,12 +8,12 @@ Code and data of the Fine-Grained-R2R Dataset proposed in paper Sub-Instruction 
 The Fine-Grained R2R data, which enriches the R2R dataset with sub-instructions and their corresponding paths. The overall instruction and trajectory of each sample remains the same.
 
 * For paths in the train, the validation seen and the validation unseen splits, we add two new entries:
-  * new_instructions: A list of sub-instructions produced by the Chunking Function from the original instructions.
-  * chunk_view: A list of sub-paths corresponding to the sub-instructions, where each number in the list is the index of a viewpoint in the ground-truth path. The index starts at 1.
+  * **new_instructions**: A list of sub-instructions produced by the **Chunking Function** from the original instructions.
+  * **chunk_view**: A list of sub-paths corresponding to the sub-instructions, where each number in the list is the index of a viewpoint in the ground-truth path. The index starts at 1.
   
 * Some sub-instructions which refer to camera rotation or a *STOP* action could match to a single viewpoint.
 
-* For the test unseen split, we only provide the 
+* For the test unseen split, we only provide the sub-instructions but not the sub-paths.
 
 
 ## source
