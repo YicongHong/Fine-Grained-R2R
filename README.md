@@ -18,9 +18,11 @@ The Fine-Grained R2R data, which enriches the R2R dataset with sub-instructions 
 ## source
 The code of the proposed Chunking Function for generating the sub-instructions.
 
-* Install the [StanfordNLP package](https://github.com/stanfordnlp/stanza/) (v0.1.2 in our experiment) and download the English models for the neural pipeline.
+* Install the [StanfordNLP package](https://github.com/stanfordnlp/stanza/) ([v0.1.2](https://pypi.org/project/stanfordnlp/0.1.2/) in our experiment) and download the English models for the neural pipeline.
 
 * Run *make_subinstr.py* to generate sub-instructions data from the original R2R data.
+
+* The generated files had been sent to AMT for annotating the sub-paths.
 
 
 
