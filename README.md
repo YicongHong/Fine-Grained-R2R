@@ -7,7 +7,7 @@ Code and data of the Fine-Grained-R2R Dataset proposed in paper Sub-Instruction 
 ## data
 The Fine-Grained R2R data, which enriches the R2R dataset with sub-instructions and their corresponding paths. The overall instruction and trajectory of each sample remains the same.
 * For samples in the train, the validation seen and the validation unseen splits, we add two new entries:
-** apple
+  * apple
 * For the test unseen split, we only provide the 
 
 
