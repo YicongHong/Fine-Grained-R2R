@@ -1,5 +1,7 @@
 # # Copyright 2020, Yicong Hong <yicong.hong@anu.edu.au>. All rights reserved.
 
+''' A heuristic based on word dependecies and governors '''
+
 import json
 import copy
 import stanfordnlp
