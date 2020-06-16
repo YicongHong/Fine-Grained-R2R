@@ -1,7 +1,5 @@
 # # Copyright 2020, Yicong Hong <yicong.hong@anu.edu.au>. All rights reserved.
 
-''' A heuristic based on word dependecies and governors '''
-
 import json
 import copy
 import stanfordnlp
@@ -12,7 +10,7 @@ from chunking_function import create_chunk
 
 if __name__ == '__main__':
 
-    split = 'train'
+    split = 'train' # 'test', 'val_seen', 'val_unseen'
     source = './R2R-original/R2R_{}.json'.format(split)
     target = './output_subinstr/FGR2R_{}.json'.format(split)
 
