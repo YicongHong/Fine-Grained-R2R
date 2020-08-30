@@ -9,7 +9,7 @@ Code and data of the Fine-Grained-R2R Dataset proposed in paper [**Sub-Instructi
 The Fine-Grained R2R data, which enriches the R2R dataset with sub-instructions and their corresponding paths. The overall instruction and trajectory of each sample remains the same.
 
 * For paths in the train, the validation seen and the validation unseen splits, we add two new entries:
-  * **new_instructions**: A list of sub-instructions produced by the **Chunking Function** from the complete instructions.
+  * **new_instructions**: A list of sub-instructions produced by the **Chunking Function** from the complete instructions. You can use ```import ast```, ast.literal_eval() to read it a list.
   * **chunk_view**: A list of sub-paths corresponding to the sub-instructions, where each number in the list is an index of a viewpoint in the ground-truth path. The index starts at 1.
   
 * Some sub-instructions which refer to camera rotation or a *STOP* action could match to a single viewpoint.
@@ -23,7 +23,7 @@ The code of the proposed **Chunking Function** for generating sub-instructions.
 
 * Run *make_subinstr.py* to generate data with sub-instructions from the original R2R data.
 
-* The generated files had been sent to the Amazon Mechanical Turk(https://www.mturk.com/) (AMT) for annotating the sub-paths.
+* The generated files had been sent to the [Amazon Mechanical Turk](https://www.mturk.com/) (AMT) for annotating the sub-paths.
 
 ## Reference
 If you use or dicsuss the Fine-Grained R2R dataset in your work, please cite our paper:
@@ -38,5 +38,4 @@ If you use or dicsuss the Fine-Grained R2R dataset in your work, please cite our
 
 ## Contact
 
-If you have a technical question regarding the dataset or publication, please
-create an issue in this repository.
+If you have any question regarding the dataset or publication, please create an issue in this repository or email yicong.hong@anu.edu.au.
