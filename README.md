@@ -1,7 +1,8 @@
 # Fine-Grained R2R
 Code and data of the Fine-Grained-R2R Dataset proposed in paper [**Sub-Instruction Aware Vision-and-Language Navigation**](https://arxiv.org/abs/2004.02707).
 
-* ~~The code and data are pre-released and **CONFIDENTIAL** to close collaborators/colleagues only,~~ The copyright resides with the authors of the paper Sub-Instruction Aware Vision-and-Language Navigation ~~, please do not distribute.~~
+* The copyright resides with the authors of the paper Sub-Instruction Aware Vision-and-Language Navigation.
+* ~~The code and data are pre-released and **CONFIDENTIAL** to close collaborators/colleagues only, please do not distribute.~~
 * This dataset is build upon the [Room-to-Room (R2R) dataset](https://github.com/peteanderson80/Matterport3DSimulator/tree/master/tasks/R2R), we refer the readers to its repository for more details.
 
 ## data
@@ -24,5 +25,13 @@ The code of the proposed **Chunking Function** for generating sub-instructions.
 
 * The generated files had been sent to AMT for annotating the sub-paths.
 
-
-
+## Reference
+If you use or dicsuss the Fine-Grained R2R dataset in your work, please cite our paper:
+```
+@article{hong2020sub,
+  title={Sub-Instruction Aware Vision-and-Language Navigation},
+  author={Hong, Yicong and Rodriguez-Opazo, Cristian and Wu, Qi and Gould, Stephen},
+  journal={arXiv preprint arXiv:2004.02707},
+  year={2020}
+}
+```
