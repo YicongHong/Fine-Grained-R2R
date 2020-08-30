@@ -21,7 +21,7 @@ The code of the proposed **Chunking Function** for generating sub-instructions.
 
 * Install the [StanfordNLP package](https://github.com/stanfordnlp/stanza/) ([v0.1.2](https://pypi.org/project/stanfordnlp/0.1.2/) in our experiment) and download the English models for the neural pipeline.
 
-* Run *make_subinstr.py* to generate data with sub-instructions from the original R2R data.
+* Run ```make_subinstr.py``` to generate data with sub-instructions from the original R2R data.
 
 * The generated files had been sent to the [Amazon Mechanical Turk](https://www.mturk.com/) (AMT) for annotating the sub-paths.
 
@@ -35,6 +35,7 @@ If you use or dicsuss the Fine-Grained R2R dataset in your work, please cite our
   year={2020}
 }
 ```
+This paper is currently under review, we will release the latest version online soon.
 
 ## Contact
 
