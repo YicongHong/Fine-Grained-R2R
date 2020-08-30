@@ -5,18 +5,18 @@ Code and data of the Fine-Grained-R2R Dataset proposed in paper [**Sub-Instructi
 * ~~The code and data are pre-released and **CONFIDENTIAL** to close collaborators/colleagues only, please do not distribute.~~
 * This dataset is build upon the [Room-to-Room (R2R) dataset](https://github.com/peteanderson80/Matterport3DSimulator/tree/master/tasks/R2R), we refer the readers to its repository for more details.
 
-## data
+## Data
 The Fine-Grained R2R data, which enriches the R2R dataset with sub-instructions and their corresponding paths. The overall instruction and trajectory of each sample remains the same.
 
 * For paths in the train, the validation seen and the validation unseen splits, we add two new entries:
-  * **new_instructions**: A list of sub-instructions produced by the **Chunking Function** from the complete instructions. You can use ```import ast```, ast.literal_eval() to read it a list.
+  * **new_instructions**: A list of sub-instructions produced by the **Chunking Function** from the complete instructions. You can use ```import ast``` and ```ast.literal_eval()``` to read it a list.
   * **chunk_view**: A list of sub-paths corresponding to the sub-instructions, where each number in the list is an index of a viewpoint in the ground-truth path. The index starts at 1.
   
 * Some sub-instructions which refer to camera rotation or a *STOP* action could match to a single viewpoint.
 
 * For the test unseen split, we only provide the sub-instructions but not the sub-paths.
 
-## source
+## Source
 The code of the proposed **Chunking Function** for generating sub-instructions.
 
 * Install the [StanfordNLP package](https://github.com/stanfordnlp/stanza/) ([v0.1.2](https://pypi.org/project/stanfordnlp/0.1.2/) in our experiment) and download the English models for the neural pipeline.
@@ -38,4 +38,4 @@ If you use or dicsuss the Fine-Grained R2R dataset in your work, please cite our
 
 ## Contact
 
-If you have any question regarding the dataset or publication, please create an issue in this repository or email yicong.hong@anu.edu.au.
+If you have any question regarding the dataset or publication, please create an issue in this repository or email to yicong.hong@anu.edu.au.
