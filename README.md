@@ -23,7 +23,7 @@ The code of the proposed **Chunking Function** for generating sub-instructions.
 
 * Run *make_subinstr.py* to generate data with sub-instructions from the original R2R data.
 
-* The generated files had been sent to AMT for annotating the sub-paths.
+* The generated files had been sent to the Amazon Mechanical Turk(https://www.mturk.com/) (AMT) for annotating the sub-paths.
 
 ## Reference
 If you use or dicsuss the Fine-Grained R2R dataset in your work, please cite our paper:
@@ -35,3 +35,8 @@ If you use or dicsuss the Fine-Grained R2R dataset in your work, please cite our
   year={2020}
 }
 ```
+
+## Contact
+
+If you have a technical question regarding the dataset or publication, please
+create an issue in this repository.
