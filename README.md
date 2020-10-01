@@ -1,6 +1,8 @@
 # Fine-Grained R2R
 Code and data of the Fine-Grained R2R Dataset proposed in paper [**Sub-Instruction Aware Vision-and-Language Navigation**](https://arxiv.org/abs/2004.02707).
 
+Code of the navigator will be released soon.
+
 This dataset enriches the benchmark Room-to-Room (R2R) dataset by dividing the instructions into sub-instructions and pairing each of those with their corresponding viewpoints in the path.
 
 * The copyright resides with the authors of the paper Sub-Instruction Aware Vision-and-Language Navigation.
