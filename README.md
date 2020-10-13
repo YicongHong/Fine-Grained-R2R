@@ -1,5 +1,5 @@
 # Fine-Grained R2R
-Code and data of the Fine-Grained R2R Dataset proposed in paper [**Sub-Instruction Aware Vision-and-Language Navigation**](https://arxiv.org/abs/2004.02707).
+Code and data of the Fine-Grained R2R Dataset proposed in the EMNLP2020 paper [**Sub-Instruction Aware Vision-and-Language Navigation**](https://arxiv.org/abs/2004.02707).
 
 Code of the navigator will be released soon.
 
@@ -38,7 +38,6 @@ If you use or dicsuss the Fine-Grained R2R dataset in your work, please cite our
   year={2020}
 }
 ```
-This paper is currently under review, we will release the latest version online soon.
 
 ## Contact
 
