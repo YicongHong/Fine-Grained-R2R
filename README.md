@@ -1,12 +1,12 @@
 # Fine-Grained R2R
 Code and data of the Fine-Grained R2R Dataset proposed in the EMNLP2020 paper [**Sub-Instruction Aware Vision-and-Language Navigation**](https://arxiv.org/abs/2004.02707).
 
-Code of the navigator will be released soon.
-
 This dataset enriches the benchmark Room-to-Room (R2R) dataset by dividing the instructions into sub-instructions and pairing each of those with their corresponding viewpoints in the path.
 
 * The copyright resides with the authors of the paper Sub-Instruction Aware Vision-and-Language Navigation.
 * This dataset is build upon the [Room-to-Room (R2R)](https://github.com/peteanderson80/Matterport3DSimulator/tree/master/tasks/R2R) dataset, we refer the readers to its repository for more details.
+
+"*The luxury of hope was given to me by the Terminator. Because if a machine can learn the value of human life, maybe we can too.*" --- [Terminator: Judgment Day 1991](https://www.imdb.com/title/tt0103064/).
 
 ## Data
 The Fine-Grained R2R data, which enriches the R2R dataset with sub-instructions and their corresponding paths. The overall instruction and trajectory of each sample remains the same.
